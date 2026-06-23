@@ -1,0 +1,33 @@
+{
+  "name": "energly-backend",
+  "version": "1.0.0",
+  "description": "Backend for an application that displays the UK energy mix and calculates the optimal time window for charging an electric vehicle to maximize the share of clean energy.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "node --loader ts-node/esm src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubieltomasz/energly-backend.git"
+  },
+  "author": "Tomasz Dubiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dubieltomasz/energly-backend/issues"
+  },
+  "homepage": "https://github.com/dubieltomasz/energly-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "type": "module"
+}
