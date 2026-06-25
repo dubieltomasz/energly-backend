@@ -26,3 +26,9 @@ export interface DayMix {
   generationmix: GenerationMixItem[];
   cleanEnergyPercent: number;
 }
+
+export interface OptimalWindow {
+    from: string;
+    to: string;
+    cleanEnergyPercent: number;
+}
