@@ -18,5 +18,11 @@ export interface GenerationInterval {
 };
 
 export interface GenerationResponse {
-    data: GenerationInterval;
+    data: GenerationInterval[];
 };
+
+export interface DayMix {
+  date: string;
+  generationmix: GenerationMixItem[];
+  cleanEnergyPercent: number;
+}
