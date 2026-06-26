@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { generationMix } from './services/generationMixService';
-import { optimalChargingWindow } from './services/optimalWindowService';
+import { generationMix } from './services/generationMixService.js';
+import { optimalChargingWindow } from './services/optimalWindowService.js';
 
 export const getGenerationMix = async (req: Request, res: Response): Promise<void> => {
     try {

@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { fetchDay, fetchData } from '../services/utils';
+import { fetchDay, fetchData } from '../services/utils.js';
 
 const makeMockResponse = (ok: boolean, body: unknown, status = 200) => ({
     ok,

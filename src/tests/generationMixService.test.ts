@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { generationMix } from '../services/generationMixService';
-import * as utils from '../services/utils';
+import { generationMix } from '../services/generationMixService.js';
+import * as utils from '../services/utils.js';
 
 vi.mock('../services/utils');
 

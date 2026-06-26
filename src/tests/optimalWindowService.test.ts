@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { optimalChargingWindow } from '../services/optimalWindowService';
-import * as utils from '../services/utils';
+import { optimalChargingWindow } from '../services/optimalWindowService.js';
+import * as utils from '../services/utils.js';
 
 vi.mock('../services/utils');
 

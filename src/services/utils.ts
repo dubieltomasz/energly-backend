@@ -1,4 +1,4 @@
-import { GenerationResponse } from "../types";
+import { GenerationResponse } from "../types.js";
 
 const url: String = (process.env.API_URL ?? '') + '/generation';
 

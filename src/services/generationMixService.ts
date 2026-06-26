@@ -1,5 +1,5 @@
-import { GenerationResponse, CleanEnergySource, DayMix, GenerationMixItem } from '../types';
-import { fetchData } from './utils';
+import { GenerationResponse, CleanEnergySource, DayMix, GenerationMixItem } from '../types.js';
+import { fetchData } from './utils.js';
 
 function averageGenerationMix(intervals: GenerationResponse['data']): GenerationMixItem[] {
     const fuelTotals: Record<string, number> = {};

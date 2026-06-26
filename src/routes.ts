@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getGenerationMix, getOptimalWindow } from './controller';
+import { getGenerationMix, getOptimalWindow } from './controller.js';
 
 const router = Router();
 

@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { getGenerationMix, getOptimalWindow } from '../controller';
-import * as generationMixService from '../services/generationMixService';
-import * as optimalWindowService from '../services/optimalWindowService';
+import { getGenerationMix, getOptimalWindow } from '../controller.js';
+import * as generationMixService from '../services/generationMixService.js';
+import * as optimalWindowService from '../services/optimalWindowService.js';
 import type { Request, Response } from 'express';
 
 vi.mock('../services/generationMixService');

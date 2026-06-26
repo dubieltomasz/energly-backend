@@ -1,5 +1,5 @@
-import { CleanEnergySource, GenerationInterval, OptimalWindow } from "../types";
-import { fetchDay } from "./utils";
+import { CleanEnergySource, GenerationInterval, OptimalWindow } from "../types.js";
+import { fetchDay } from "./utils.js";
 
 function calculateIntervalCleanEnergy(interval: GenerationInterval): number {
     const total = interval.generationmix
