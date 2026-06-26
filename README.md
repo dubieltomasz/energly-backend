@@ -10,7 +10,7 @@ The system is designed with modular architecture, separating controllers, routes
 ![GitHub last commit](https://img.shields.io/github/last-commit/dubieltomasz/energly-backend)
 
 ## Acknowledgements
-See [ACKNOWLEDGEMENTS.md](./ACKNOWLEDGEMENTS.md).
+See [ACKNOWLEDGEMENTS.md](./.github/ACKNOWLEDGEMENTS.md).
 
 ## Tech Stack
 - Node.js – runtime environment for server-side JavaScript
