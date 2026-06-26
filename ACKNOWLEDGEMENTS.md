@@ -1,4 +1,4 @@
-# Acknowledgments
+# Acknowledgements
 
 ## Carbon Intensity API
 
