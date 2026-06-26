@@ -26,7 +26,7 @@ The API data is licensed under [Creative Commons Attribution 4.0 International (
 1. Clone the repository
 ```
 git clone https://github.com/dubieltomasz/energly-backend.git
-cd your-repo/backend
+cd energly-backend
 ```
 2. Install dependencies
 ```
